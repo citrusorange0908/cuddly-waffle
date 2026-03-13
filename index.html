@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Limbus Company 人格データベース</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Limbus Company 人格DB</h1>
+
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="人格名や囚人名で検索...">
+            
+            <div class="filter-buttons" id="filterButtons">
+                <button class="filter-btn active" data-keyword="all">ALL</button>
+                <button class="filter-btn" data-keyword="出血">出血</button>
+                <button class="filter-btn" data-keyword="振動">振動</button>
+                <button class="filter-btn" data-keyword="火傷">火傷</button>
+                <button class="filter-btn" data-keyword="破裂">破裂</button>
+                <button class="filter-btn" data-keyword="沈潜">沈潜</button>
+                <button class="filter-btn" data-keyword="呼吸">呼吸</button>
+                <button class="filter-btn" data-keyword="充填">充填</button>
+            </div>
+        </div>
+
+        <div id="identityList" class="grid">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
