@@ -15,6 +15,11 @@ const identities = [
         sinner: "ドンキホーテ",
         keywords: ["呼吸"]
     }
+    {
+        name: "剣契　殺手",
+        sinner: "ファウスト",
+        keywords:["呼吸","出血"]
+    }
 ];
 
 const listContainer = document.getElementById('identityList');
