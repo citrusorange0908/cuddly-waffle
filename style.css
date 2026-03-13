@@ -1,0 +1,99 @@
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    border-left: 5px solid #b71c1c;
+    padding-left: 15px;
+    font-size: 24px;
+}
+
+.controls {
+    margin-bottom: 30px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 12px;
+    background: #2a2a2a;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.filter-btn {
+    background: #333;
+    border: 1px solid #555;
+    color: #ccc;
+    padding: 6px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.filter-btn:hover, .filter-btn.active {
+    background: #b71c1c;
+    color: white;
+    border-color: #ff5252;
+}
+
+/* リスト表示のグリッド */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #252525;
+    border: 1px solid #333;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    border-color: #b71c1c;
+    transform: translateY(-2px);
+}
+
+.sinner-name {
+    font-size: 12px;
+    color: #888;
+}
+
+.identity-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.tag-container {
+    margin-top: 10px;
+}
+
+.tag {
+    display: inline-block;
+    background: #3d1010;
+    color: #ff8a80;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
