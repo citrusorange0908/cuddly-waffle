@@ -8,7 +8,7 @@ const identities = [
     {
         name: "奥歯事務所 フィクサー",
         sinner: "ウーティス",
-        keywords: ["振動", "沈潜"]
+        keywords: ["振動"]
     },
     {
         name: "南部シ協会 4課",
